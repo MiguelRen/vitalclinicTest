@@ -10,6 +10,7 @@ const utilidades = () => {
             input,
             nombre_opciones
         } = param;
+    console.log(param);
     
         let {id,nombre} = nombre_opciones;
     

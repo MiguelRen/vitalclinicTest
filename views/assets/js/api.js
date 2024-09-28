@@ -21,3 +21,4 @@ export default async function app(url, metodo = 'GET', datos = null) {
         throw error; // Lanza el error para manejarlo donde se llame a la función
     }
 }
+
