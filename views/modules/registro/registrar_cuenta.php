@@ -30,7 +30,8 @@
             </span>
             
             <div class="w-full h-fit">
-                <form class="flex flex-col items-center py-4 h-fit border-2 border-gray-200 rounded-md bg-blue-500">
+                <form class="flex flex-col items-center py-4 h-fit border-2 
+                border-gray-200 rounded-md bg-blue-500">
 
                     <label for="lastname" class="w-full relative px-6">
                         <p class="text-white">Empleado</p>
@@ -66,7 +67,9 @@
                     <input 
                         type="submit" 
                         value="Registrar" 
-                        class="w-full border-2 border-gray-300 rounded-md px-6 py-2 mt-3 mb-2 font-extralight text-white text-base font-medium focus:outline-none cursor-pointer bg-blue-600"
+                        class="w-full border-2 border-gray-300 rounded-md px-6
+                         py-2 mt-3 mb-2 font-extralight text-white text-base
+                          font-medium focus:outline-none cursor-pointer bg-blue-600"
                     >
                     </label>
                 </form>

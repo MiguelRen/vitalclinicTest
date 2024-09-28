@@ -13,7 +13,9 @@
             "registrar_pedido_por_partes" => "almacen/registrar_pedido_por_partes",
             "consultar_pedido" => "almacen/consultar_pedido",
             "rechequear_pedido" => "almacen/rechequear",
-            "registrar_fallas" => "almacen/registrar_fallas"
+            "registrar_fallas" => "almacen/registrar_fallas",
+
+            "inventario" => "inventario/inventario_inicio"
         ];
 
         public function checkLinkExistence($name_link){
