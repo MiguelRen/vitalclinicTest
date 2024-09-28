@@ -1,12 +1,17 @@
 import app from "../api.js"
 import utilidades from "../utilidades.js"
 
-const elemento = document.querySelector("codigoProducto");
+
+const extraer_datos_productos = async (data)=>{
+    const resultados = await app()
+};
+
+
 
 document.addEventListener("submit",e =>{
     e.preventDefault();
-    console.log(e.target.codigoProducto.value);
-});
+    const codProducto = e.target.codigoProducto.value;
+});    
 
 
-
+    
