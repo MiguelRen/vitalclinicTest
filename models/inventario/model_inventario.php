@@ -1,5 +1,5 @@
 <?php
-    class model_inventario_productos extends Connection{ 
+    class Model_Inventario_productos extends Connection{ 
 
         private $con ;
 
@@ -7,10 +7,10 @@
             $this-> con = $this->connect() ;
         }
 
-        public function extraer_producto(){
+        public function extraer_producto() {
                         $sql = "select * from articulos where art=?";
                         $queryResult = $this->con->query($sql);
-                        die(var_dump($queryResult));
+                        die(var_dump(value: $queryResult));
                         // return $queryResult;
 
         }
